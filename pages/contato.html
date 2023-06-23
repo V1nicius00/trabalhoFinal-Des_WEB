@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/contato.css">
+    <!-- Importação de fontes e ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Contato</title>
 
     <style>
-        /* Estilos CSS para o grid */
+        /* Definição para o grid*/
         body {
           display: grid;
-          grid-template-rows: auto 1fr auto; /* Define três linhas: header, main/section, footer */
-          grid-template-columns: 80vw 1fr; /* Define uma coluna */
+          grid-template-rows: auto 1fr auto; 
+          grid-template-columns: 80vw 1fr; 
           grid-template-areas:
             "header"
             "main"
             "aside"
-            "footer"; /* Define as áreas para cada seção */
-          min-height: 100vh; /* Altura mínima para ocupar a tela inteira */
+            "footer";
+          min-height: 100vh; 
           margin: 0; /* Remove as margens padrão */
           padding: 0; /* Remove os espaçamentos internos padrão */
           gap: 10px;
@@ -27,31 +28,31 @@
     
         /* Estilos para cada seção */
         header {
-          grid-row: 1 / 2; /* Define a área do header */
+           /* Define a área do header */
+          grid-row: 1 / 2;
           grid-column: 1 / 3;
-          /* background-color: #f2f2f2; */
           padding: 20px;
         }
     
+        /* Define a área do main */
         main {
-          grid-row: 2 / 3; /* Define a área do main */
+          grid-row: 2 / 3; 
           grid-column: 1 / 2;
-          /* background-color: #fff; */
           padding: 20px;
           grid-template-columns: 1fr 200px;
         }
     
         aside {
+           /* Define a área do aside */
           grid-row: 2 / 3;
-          grid-column: 2 / 3; /* Define a área do aside */
-          /* background-color: #f9f9f9; */
+          grid-column: 2 / 3;
           padding: 20px;
         }
     
         footer {
+          /* Define a área do footer */
           grid-row: 3 / 4;
-          grid-column: 1 / 3; /* Define a área do footer */
-          /* background-color: #f2f2f2; */
+          grid-column: 1 / 3; 
           padding: 20px;
         }
 
@@ -82,22 +83,23 @@
         <h2 style="text-align: center;">Professor Rodrigo Machniewicz Sokulski<br> Desenvolvimento Web Básico</h2>
         <p style="text-align: center;">Trabalho sobre algumas de minhas bandas de Rock favoritas.<br> Utilizando somente HTML, CSS e JS.</p>
 
+        <!-- Tabela com link para rede social, com target blank para abrir em outra pagina -->
         <table class="table">
           <tr>
             <td>
-              <a href="">Instagram </a>
+              <a href="https://www.instagram.com/vininoc/" target="_blank">Instagram </a>
             </td>
             <td>
-              <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+              <a href="https://www.instagram.com/vininoc/" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
             </td>
           </tr>
 
           <tr>
             <td>
-              <a href="">LinkedIn</a>
+              <a href="https://br.linkedin.com/in/vinícius-cordeiro-nocera-980274255" target="_blank">LinkedIn</a>
             </td>
             <td>
-              <a href=""><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+              <a href="https://br.linkedin.com/in/vinícius-cordeiro-nocera-980274255" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
             </td>
           </tr>
         </table>
@@ -126,6 +128,7 @@
         <p>Vinicius 2023 &copy;</p>
     </footer>
     
+    <!-- Chamando script -->
     <script type="text/javascript" src="../assets/js/script.js"></script>
 
 </body>

@@ -44,7 +44,6 @@ img:hover{
 }
 
 @media screen and (max-width: 750px) {
-    /* Estilos para telas menores que 600px */
     .band-list{
         flex-direction: column;
     }
@@ -56,15 +55,9 @@ img:hover{
   }
 
   @media screen and (max-width: 300px) {
-    /* Estilos para telas menores que 600px */
     .band-list img{
         height: 60px;
     }
     
   }
 
-  @media screen and (max-width: 200px) {
-    /* Estilos para telas menores que 600px */
-    
-    
-  }

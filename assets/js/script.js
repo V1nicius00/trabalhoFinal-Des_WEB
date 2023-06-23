@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
+
+//Função para fazer funcionar o Dark/Light mode da página
 const mode = document.getElementById('mode-icon');
 
 mode.addEventListener('click', () => {
@@ -7,7 +9,6 @@ mode.addEventListener('click', () => {
     const header = document.getElementById('home-header');
     const bodyband = document.getElementById('body-band');
 
-    //contact
     const bodycontact = document.getElementById('body-contact');
     const headercontact = document.getElementById('header-contact');
     const maincontact = document.getElementById('main-container');
@@ -44,76 +45,10 @@ mode.addEventListener('click', () => {
     footer.classList.remove('light');
 
 });
-
-
-
-// const ls = document.getElementById('img-ls');
-// const lz = document.getElementById('img-lz');
-// const metallica = document.getElementById('img-metallica');
-// const doors = document.getElementById('img-doors');
-
-// var clickACDC = 0;
-// var clickLS = 0;
-// var clickLZ = 0;
-// var clickMetallica = 0;
-// var clickDoors = 0;
-
-// function countACDC() {
-//     clickACDC++;
-    
-//     if (clickACDC === 10) {
-//       alert('✝ RIP ✝ \n Bon Scott & Malcolm Young ');
-//       clickACDC = 0;
-//     }
-//   }
-  
-  
-//   function countLS() {
-//       clickLS++;
-      
-//       if (clickLS === 3) {
-//           alert('Você deu exatamente 3 cliques!');
-//           clickLS = 0;
-//         }
-//     }
-    
-    
-    
-//     function countLZ() {
-//         clickLZ++;
-        
-//         if (clickLZ === 3) {
-//             alert('Você deu exatamente 3 cliques!');
-//             clickLZ = 0;
-//         }
-//     }
-    
-    
-    
-//     function countMetallica() {
-//         clickMetallica++;
-        
-//         if (clickMetallica === 3) {
-//             alert('Você deu exatamente 3 cliques!');
-//             clickMetallica = 0;
-//         }
-//     }
-    
-//     function countDoors() {
-//         clickDoors++;
-        
-//         if (clickDoors === 3) {
-//             alert('Você deu exatamente 3 cliques!');
-//             clickDoors = 0;
-//         }
-//     }
-    
-// ls.addEventListener('click', countLS);
-// acdc.addEventListener('click', countACDC);
-// lz.addEventListener('click', countLZ);
-// metallica.addEventListener('click', countMetallica);
-// doors.addEventListener('click', countDoors);
 });
+
+
+//Funções para o easter-egg
 
 document.addEventListener("DOMContentLoaded", function() {
     const acdc = document.getElementById('img-acdc');
