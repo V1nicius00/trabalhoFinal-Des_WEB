@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Contato</title>
+
+    <style>
+        /* Estilos CSS para o grid */
+        body {
+          display: grid;
+          grid-template-rows: auto 1fr auto; /* Define três linhas: header, main/section, footer */
+          grid-template-columns: 80vw 1fr; /* Define uma coluna */
+          grid-template-areas:
+            "header"
+            "main"
+            "aside"
+            "footer"; /* Define as áreas para cada seção */
+          min-height: 100vh; /* Altura mínima para ocupar a tela inteira */
+          margin: 0; /* Remove as margens padrão */
+          padding: 0; /* Remove os espaçamentos internos padrão */
+          gap: 10px;
+        }
+    
+        /* Estilos para cada seção */
+        header {
+          grid-row: 1 / 2; /* Define a área do header */
+          grid-column: 1 / 3;
+          /* background-color: #f2f2f2; */
+          padding: 20px;
+        }
+    
+        main {
+          grid-row: 2 / 3; /* Define a área do main */
+          grid-column: 1 / 2;
+          /* background-color: #fff; */
+          padding: 20px;
+          grid-template-columns: 1fr 200px;
+        }
+    
+        aside {
+          grid-row: 2 / 3;
+          grid-column: 2 / 3; /* Define a área do aside */
+          /* background-color: #f9f9f9; */
+          padding: 20px;
+        }
+    
+        footer {
+          grid-row: 3 / 4;
+          grid-column: 1 / 3; /* Define a área do footer */
+          /* background-color: #f2f2f2; */
+          padding: 20px;
+        }
+
+        
+
+      </style>
+</head>
+<body id="body-contact">
+
+    <header id="header-contact">
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/bands/bands.html">Bandas</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <main id="main-container">
+
+        <i id="mode-icon" class="fa-solid fa-sun" style="color: #000000; padding: 5px; font-size: 20px;"></i>
+
+        <h1>Vinícius Cordeiro Nocera</h1>
+        <p>ADS Manhã - Sexta Feira / RGM: 29144493 </p>
+        <h2 style="text-align: center;">Professor Rodrigo Machniewicz Sokulski<br> Desenvolvimento Web Básico</h2>
+        <p style="text-align: center;">Trabalho sobre algumas de minhas bandas de Rock favoritas.<br> Utilizando somente HTML, CSS e JS.</p>
+
+        <table class="table">
+          <tr>
+            <td>
+              <a href="">Instagram </a>
+            </td>
+            <td>
+              <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="">LinkedIn</a>
+            </td>
+            <td>
+              <a href=""><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+            </td>
+          </tr>
+        </table>
+    </main>
+
+    <aside id="aside">
+      <h3>MENÇÕES HONROSAS:</h3>
+      <p>Iron Maiden</p>
+      <p>Nirvana</p>
+      <p>Black Sabbath</p>
+      <p>Guns n' Roses</p>
+      <p>The Beatles</p>
+      <p>KISS</p>
+      <p>Pink Floyd</p>
+      <p>Jimi Hendrix</p>
+      <p>The Rolling Stones</p>
+      <p>Red Hot Chili Peppers</p>
+      <p>Eagles</p>
+      <p>Queen</p>
+      <p>Aerosmith</p>
+      <p>Creedence Clearwater Revival</p>
+
+    </aside>
+
+    <footer id="footer">
+        <p>Vinicius 2023 &copy;</p>
+    </footer>
+    
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+
+</body>
+</html>
